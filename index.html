@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Yang</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/48703c09e5.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+
+                <div class="navbar-item">
+                    <a class="navtext" href="#about">
+                        <strong>About</strong>
+                    </a>
+                </div>
+
+                <div class="navbar-item ">
+                    <a class="navtext" href="#projects">
+                        <strong>Projects</strong>
+                    </a>
+                </div>
+
+                <div class="navbar-item">
+                    <a class="navtext" href="#contact">
+                        <strong>Contact</strong>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="bd-tw-button button" href="https://github.com/KJustin03">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span class="navtext">
+                                Github
+                            </span>
+                            </a>
+                        </p>
+                        <p class="control">
+                            <a class="button is-primary" href="https://www.linkedin.com/in/kyle-yang-3b26b2224/">
+                                <span class="icon">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </span>
+                                <span class="linked">LinkedIn</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- about me section -->
+    <section class="section is-medium">
+
+        <div class="columns is-max-desktop ">
+            <h1 class="title about column">
+                About Me
+            </h1>
+
+            <div class="card container">
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4" id="aboutme">Kyle Yang</p>
+                            <p class="subtitle is-6">@KJustin03</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Phasellus nec iaculis mauris. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                        <a href="https://github.com/KJustin03">@KJustin03</a>.
+                        <a href="https://www.linkedin.com/in/kyle-yang-3b26b2224/">#linkedin</a> 
+                        <a href="#">#resume</a>
+                        <br>
+                        <time datetime="2016-1-1"> 5:03 PM - 30 May 2022</time>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <hr>
+
+    <!-- projects section -->
+    <section class="section is-medium">
+        <div class="columns is-max-desktop">
+            <h1 class="title project column" id="projects">
+                Projects
+            </h1>
+
+            <div class="container is-desktop">
+                <!-- passgen -->
+                <div class="container dropdown is-right is-hoverable imgsize">
+                    <div class="dropdown-trigger">
+                        <figure class="image is-fullwidth">
+                            <img src="./images/pgen.jpg">
+                        </figure>
+                    </div>
+
+                    <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                      <div class="dropdown-content">
+                        <a href="https://github.com/KJustin03/Homework3" class="dropdown-item">
+                          Github
+                        </a>
+                        <a href="https://kjustin03.github.io/Homework3/" class="dropdown-item">
+                          Website
+                        </a>
+                        <hr class="dropdown-divider">
+                        <a href="#" class="dropdown-item">
+                          More
+                        </a>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- proj1 -->
+                <div class="container dropdown is-right is-hoverable imgsize">
+                    <div class="dropdown-trigger">
+                        <figure class="image is-fullwidth">
+                            <img src="./images/proj1.png">
+                        </figure>
+                        
+                    </div>
+
+                    <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                      <div class="dropdown-content">
+                        <a href="https://github.com/lewisemarcus/PollutionMap" class="dropdown-item">
+                          Github
+                        </a>
+                        <a href="https://lewisemarcus.github.io/PollutionMap/" class="dropdown-item">
+                          Website
+                        </a>
+                        <hr class="dropdown-divider">
+                        <a href="#" class="dropdown-item">
+                          More
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <footer class="footer">
+        <div class="container is-max-desktop">
+            <h1 class="title project" id="contact">
+                Contact
+            </h1>
+        </div>
+
+        <div class="container">
+            
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="email" placeholder="Enter your email here">
+                    <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Password</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input" type="text" placeholder="Enter your password">
+                    <span class="icon is-small is-left">
+                        <i class="fa-solid fa-key"></i>
+                    </span>
+                </div>
+            </div>
+            
+            <div class="field">
+                <label class="label">Any Questions?</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Write your questions here"></textarea>
+                </div>
+            </div>
+            
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link">Submit</button>
+                </div>
+                <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+
+</html>

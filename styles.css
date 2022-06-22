@@ -1,0 +1,21 @@
+.about,
+.project {
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+.navtext {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    color: black;
+}
+
+.linked {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.imgsize {
+    padding: 20px;
+}
